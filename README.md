@@ -17,7 +17,7 @@ A simple script is also provided for model-agnostic feature importance generatio
 
 -- FeatureImportance_EnrichmentAnalysis_JoinedTimeGroups.R
 
-See Methods section in the paper for further details.
+See Methods section in the paper for further details, including versions of the packages.
 
 
 # Data Availability
