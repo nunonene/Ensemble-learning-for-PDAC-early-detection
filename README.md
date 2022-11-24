@@ -7,7 +7,7 @@ It helps to create each base-learner and the stacking strategy with joined time-
 
 -- Run_BaseLearners_JoinedTimeGroups.R
 
--- Run_BaseLearners_WithHDDPM_JoinedTimeGroups.R
+-- Run_BaseLearners_WithHDDPM_JoinedTimeGroups.R (calls RunHDDPM_R.py)
 
 -- Run_BaseLearners_WithSMOTE_JoinedTimeGroups.R
 
