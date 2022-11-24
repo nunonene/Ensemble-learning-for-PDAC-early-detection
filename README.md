@@ -1,9 +1,9 @@
 # Ensemble-learning-for-PDAC-early-detection
 
 
-This code helps replicating the main results of the paper available at https://www.medrxiv.org/content/10.1101/2021.12.02.21267187v2 
+This code helps replicating the main results presented in Figures 1,2 and 3 of the paper available at https://www.medrxiv.org/content/10.1101/2021.12.02.21267187v2 
 
-It helps generating each base-learner and the stacking strategy with joined time-groups (JTG2L) with over-sampling of the minority class and synthetic data generation with HD-DPM or SMOTE are available.
+It helps generating each base-learner and the stacking strategy with joined time-groups (JTG2L), either with over-sampling of the minority class, synthetic data generation with a High-dimensional Dirichlet Process Mixture (HD-DPM) model or with the Synthetic Minority Oversampling TEchnique (SMOTE).
 
 A simple script is also provided for model-agnostic feature importance generation and enrichment analysis.
 
