@@ -3,9 +3,14 @@
 
 This code helps replicating the main results presented in Figures 1,2 and 3 of the paper available at https://www.medrxiv.org/content/10.1101/2021.12.02.21267187v2 
 
-It helps generating each base-learner and the stacking strategy with joined time-groups (JTG2L), either with over-sampling of the minority class, synthetic data generation with a High-dimensional Dirichlet Process Mixture (HD-DPM) model or with the Synthetic Minority Oversampling TEchnique (SMOTE).
+It helps to create each base-learner and the stacking strategy with joined time-groups (JTG2L), either with over-sampling of the minority class, synthetic data generation with a High-dimensional Dirichlet Process Mixture (HD-DPM) model or with the Synthetic Minority Oversampling TEchnique (SMOTE):
+-- Run_BaseLearners_JoinedTimeGroups.R
+-- Run_BaseLearners_WithHDDPM_JoinedTimeGroups.R
+-- Run_BaseLearners_WithSMOTE_JoinedTimeGroups.R
+-- Stack_BaseLearners_JTG2L.R
 
-A simple script is also provided for model-agnostic feature importance generation and enrichment analysis.
+A simple script is also provided for model-agnostic feature importance generation and enrichment analysis:
+-- FeatureImportance_EnrichmentAnalysis_JoinedTimeGroups.R
 
 See Methods section in the paper for further details.
 
