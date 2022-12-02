@@ -242,7 +242,7 @@ Sensitivity_AtSpe90_BMAStack<-Crd$sensitivity
 
 PPV_AtSpe90_BMAStack<-Crd$ppv 
 
-NPV_AtSpe90_Sens90<-Crd$npv 
+NPV_AtSpe90_BMAStack<-Crd$npv 
 
 
 # ===============================================================================================================================================================================
@@ -253,6 +253,6 @@ NPV_AtSpe90_Sens90<-Crd$npv
 #  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # ===============================================================================================================================================================================
 
-save(list=c("pROC_BMAStack","Sensitivity_AtSpe90_BMAStack","PPV_AtSpe90_BMAStack","NPV_AtSpe90_Sens90"),file=paste0('./Results_BMAStack_JTG2L_JoinedTimeGroup_',tg,'.Rdata'))
+save(list=c("pROC_BMAStack","Sensitivity_AtSpe90_BMAStack","PPV_AtSpe90_BMAStack","NPV_AtSpe90_BMAStack"),file=paste0('./Results_BMAStack_JTG2L_JoinedTimeGroup_',tg,'.Rdata'))
 
 
